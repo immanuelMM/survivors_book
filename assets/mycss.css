@@ -1,0 +1,143 @@
+.about .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 200px;
+}
+.second-container .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.second-container h3 {
+  font-size: 9vw;
+  text-align: left;
+  margin: auto;
+}
+.second-container .img {
+  position: relative;
+  align-items: baseline;
+}
+
+.second-container .container-fluid {
+  color: #bae4a2;
+  font-family: "Gunplay 3D", sans-serif;
+}
+.container-fluid {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.about .container-fluid {
+  color: #7aa264;
+  font-size: 100px;
+}
+.about .container-fluid img {
+  margin-right: 10px;
+}
+.about .container-fluid p {
+  background-color: #7aa264;
+  color: white;
+  border-radius: 20px;
+}
+.about .container-fluid h3 {
+  font-family: "Gunplay 3D", sans-serif;
+  font-size: 100px;
+}
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.section-bg {
+  background-color: #f8fbfe;
+}
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+.clients img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+.clients img:hover {
+  filter: none;
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .clients img {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about .container-fluid img {
+    display: none;
+  }
+  .about .container-fluid h3 {
+    font-size: 50px;
+  }
+}
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+.contact .info i {
+  font-size: 20px;
+  color: #2487ce;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e3f0fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #124265;
+}
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 40px;
+  color: #217bbc;
+}
+
+section {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f8fbfe;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: "Gunplay 3D", sans-serif;
+  font-size: 100px;
+  color: #7aa264;
+}
+.section-title p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #919191;
+}
