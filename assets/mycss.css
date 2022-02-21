@@ -1,8 +1,95 @@
+@import url("http://fonts.cdnfonts.com/css/gunplay-3d");
+* {
+  font-family: "Wallpoet", cursive;
+}
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 {
+  background-color: #1abc9c; /* Green */
+  color: black;
+}
+
+.bg-1 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  font-family: "Gunplay 3D", sans-serif;
+  color: #000;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 {
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  background-color: #7aa264;
+  background-image: linear-gradient(to bottom right, #7aa264, #3f5d2b);
+  font-variant-position: super;
+  border-bottom: #000;
+}
+.navbar-default .navbar-brand {
+  margin-top: -15px;
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Gunplay 3D", sans-serif;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+.navbar-nav li a {
+  margin: 1px;
+}
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 1px 0px 10px 5px;
+}
+.bg-1 {
+  background-color: #ffffff;
+  color: #2f2f2f;
+  background-image: url("img/survivor_ref/home1.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .about .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 200px;
+  margin: 100px;
 }
 .second-container .img-responsive {
   display: block;
@@ -37,7 +124,12 @@
 .about .container-fluid p {
   background-color: #7aa264;
   color: white;
+  font-size: 20px;
+  font-weight: 700px;
   border-radius: 20px;
+  padding: 10px;
+  border: #000 solid;
+  box-shadow: 10px 10px 50px 0;
 }
 .about .container-fluid h3 {
   font-family: "Gunplay 3D", sans-serif;
@@ -70,17 +162,47 @@ section {
   transform: scale(1.15);
 }
 @media (max-width: 768px) {
+  * {
+    font-family: "Wallpoet", cursive;
+  }
   .clients img {
     max-width: 40%;
+  }
+  .bg-1 h3 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 9;
+    font-family: "Gunplay 3D", sans-serif;
+    color: #000;
+  }
+  .bg-1 {
+    background-image: url("img/survivor_ref/home1.jpg");
+    margin-top: 50px;
+    /* margin-right: 50px; */
+    background-position: center center;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  * {
+    font-family: "Wallpoet", cursive;
+  }
   .about .container-fluid img {
     display: none;
   }
   .about .container-fluid h3 {
     font-size: 50px;
+  }
+  .bg-1 h3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: "Wallpoet", cursive;
+    color: #000;
   }
 }
 .contact .info {
@@ -88,12 +210,11 @@ section {
   background: #fff;
 }
 .contact .info i {
-  font-size: 20px;
-  color: #2487ce;
+  font-size: 50px;
   float: left;
   width: 44px;
   height: 44px;
-  background: #e3f0fa;
+  background: #7aa264;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +223,7 @@ section {
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 22px;
+  font-size: 50px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #124265;
@@ -110,12 +231,11 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 30px;
   color: #217bbc;
 }
-
 section {
-  padding: 80px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
@@ -127,17 +247,83 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-.section-title h2 {
+.section-title h3 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Gunplay 3D", sans-serif;
-  font-size: 100px;
+  font-family: "Wallpoet", cursive;
+  font-size: 50px;
   color: #7aa264;
 }
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
   color: #919191;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.second-container p {
+  /* background-color: #bae4a2c9;  */
+  color: #f2dede;
+  border-radius: 20px;
+  padding: 10px;
+  border: #000 solid;
+  box-shadow: 1px 1px 50px 10px;
+  margin-top: 80px;
+  font-size: 19px;
+  font-weight: bold;
 }
