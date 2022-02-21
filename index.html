@@ -28,7 +28,17 @@
   .margin {margin-bottom: 45px;}
   .bg-1 { 
     background-color: #1abc9c; /* Green */
-    color: #ffffff;
+    color: black;
+  }
+  
+  .bg-1 h3{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: 'Gunplay 3D', sans-serif;
+    color: #000;
   }
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
@@ -61,7 +71,9 @@
     margin-bottom: 0;
     font-size: 12px;
     background-color: #7aa264;
+    background-image: linear-gradient(to bottom right, #7aa264, #3f5d2b);
     font-variant-position: super;
+    border-bottom: #000;
   }
 .navbar-default .navbar-brand {
     margin-top: -15px;
@@ -87,7 +99,7 @@
 .bg-1 {
     background-color: #ffffff;
     color: #2f2f2f;
-    background-image: url("assets/img/survivor_ref/273044150_2998044357128332_7865731322925960383_n.jpg");
+    background-image: url("assets/img/survivor_ref/home1.jpg");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,7 +141,12 @@
   margin-right: 10px;
 }
 .about .container-fluid p {
-  background-color: #7aa264; color: white;border-radius: 20px
+  background-color: #7aa264; 
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border: #000 solid;
+  box-shadow: 10px 10px 50px 0;
 }
 .about .container-fluid h3 {
   font-family: 'Gunplay 3D', sans-serif;
@@ -165,6 +182,15 @@ section {
   .clients img {
     max-width: 40%;
   }
+  .bg-1 h3{ 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Gunplay 3D', sans-serif;
+    color: #000;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -173,7 +199,14 @@ section {
   }
   .about .container-fluid h3 {
   font-size: 50px;
-}
+  }
+  .bg-1 h3{ 
+    visibility: hidden;
+  }
+  .container-fluid img{ 
+   visibility: visible;
+  }
+
 }
 .contact .info {
   width: 100%;
@@ -242,7 +275,40 @@ section {
   transform: translateY(0);
   opacity: 1;
 } 
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.second-container p {
+  background-color: #bae4a2c9; 
+  color: #000;
+  border-radius: 20px;
+  padding: 10px;
+  border: #000 solid;
+  box-shadow: 1px 1px 50px 10px;
+  margin-top: 50px;
+  font-size: 17px;
+}
   </style>
 </head>
 <body>
@@ -276,7 +342,9 @@ section {
 </header>
 
 <!-- First Container -->
-<section class="container-fluid bg-1 text-center reveal" id="index" >
+<section class="container-fluid bg-1 text-center" id="index" >
+  <h3 class="margin fade-in-text " >The W in WFH is not <br> just work, 
+    <br>it also means WAR! <br> Let’s all survive and thrive!</h3>
   <div style="visibility: hidden;">
     <img src="assets/img/survivor_ref/273044150_2998044357128332_7865731322925960383_n.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="1300" height="1000" style="display: none;">
   </div>  
@@ -292,9 +360,25 @@ section {
       <div class="col-sm-6 reveal" style="  font-family: 'Gunplay 3D', sans-serif;">
         <h3 class="margin">We <br> Are<br> Survivors!</h3>
       </div>
-      <div class="col-sm-6 content reveal">
-        <img src="assets/img/survivor_ref/wWR.png" class="img-responsive " style="width: 650px"height="100px" alt="Image" >
-      </div>  
+        <div class="col-sm-6" > 
+          <p>For the past 2 years since the pandemic, we all have experienced the pains of adjusting to working from home. Making some of us survivors. We also enjoyed all of the perks that go along with it. As a survivor and a keen observer, I compiled all of the practical tips I’ve learned to endure the work-from-home game.</p>
+          <p>For those undergoing the battle and fighting to win the war, I know that you are all natural survivors. 
+            But in case you need help to know your focus and identify pitfalls in the work from home setup faster 
+            than anybody else, you might benefit from our book, “Survival Guide to Work From Home.” <br><br>
+            <br>            
+            Your Co-Survivor, <br>
+            CNoel Peralta Jr.
+
+          </p>
+        </div>
+
+        <div class="col-sm-6"style="padding: 1px" > 
+          <p style="padding: 20px">Noel “NOIEE” Peralta Jr. is the CEO of One Knowledge Consulting, LLC.  He advocates for the survival of his fellow workers who seek to earn a decent living by working from home amid the ongoing pandemic. Peralta is a graduate of Bachelor of Science in Information Technology at the Mapua Institute in the Philippines. One Knowledge Consulting, LLC is based in Florida and specializes in assisting businesses, big or small, with marketing boost through digital platforms. Most of the OK staff are working from home.</p>
+        </div>
+      <div class="col-sm-3 content">
+        <img src="assets/img/survivor_ref/Who We Are copy.png" class="img-responsive " style="width: 650px"height="100px" alt="Image" >
+      </div>
+        
     </div>
   </div>
 </section>
@@ -306,13 +390,12 @@ section {
       <div class="col-sm-5">
         <img src="assets/img/survivor_ref/Publications.png" class="img-responsive margin" style="width:70%" alt="Image">
       </div>
-      <div class="col-sm-5" style="padding: 50px;"> 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="col-sm-5"> 
+        <p>Forbes, BBC, and NBC have all predicted working from home as a long-term work setup. The absence of a perfect cure to Covid-19 infection and its mutations made it difficult for workers to return to their offices. </p>
+        <p>The work-from-home setup has saved several businesses that needed to operate amid the pandemic since 2020.  But the changes and adjustments can be overwhelming to some of us. Can we survive this? </p>
+        <p>The "Survival Guide to Work From Home" contains vital information about the new work setup, shared within the perspective of a soldier who set out to survive the war.</p>
+        <p>The book is a compilation of all of the practical tips that can help workers to endure the work-from-home game.</p>
+        <p>The book also features real-life stories of work from home workers who've "survived," by successfully adjusting to their new setup and preventing the pitfalls. It also contains enjoyable and endearing illustrations.</p>
       </div>
     </div>
   </div>
@@ -471,6 +554,48 @@ window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 reveal();
+document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "The W in WFH is <br> not  just work, <br>it also means <br> WAR!  Let’s all <br> survive and <br> thrive!"];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h3").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
 </script>
 </body>
 </html>
