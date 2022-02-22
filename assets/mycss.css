@@ -100,6 +100,7 @@ header {
   font-size: 9vw;
   text-align: left;
   margin: auto;
+  color: #000;
 }
 .second-container .img {
   position: relative;
@@ -318,12 +319,12 @@ section {
   }
 }
 .second-container p {
-  background-color: #fff;
-  background-image: linear-gradient(to bottom right, #fff, #7aa264);
+  /* background-color: #fff;
+  background-image: linear-gradient(to bottom right, #fff, #7aa264); */
   color: #000;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   padding: 10px;
-  box-shadow: 1px 1px 50px 10px;
+  /* box-shadow: 1px 1px 50px 10px; */
   margin-top: 80px;
   font-size: 19px;
   font-family: sans-serif;
