@@ -127,11 +127,11 @@ header {
   color: #555;
   font-size: 20px;
   font-weight: 700px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   padding: 10px;
   border: #000 1px;
   font-family: sans-serif;
-  box-shadow: 10px 10px 50px 0;
+  /* box-shadow: 10px 10px 50px 0; */
 }
 .about .container-fluid h3 {
   font-family: "Gunplay 3D", sans-serif;
