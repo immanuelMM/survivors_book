@@ -1,6 +1,6 @@
 @import url("http://fonts.cdnfonts.com/css/gunplay-3d");
 * {
-  font-family: "Wallpoet", cursive;
+  font-family: sans-serif;
 }
 p {
   font-size: 16px;
@@ -323,10 +323,8 @@ section {
   color: #000;
   border-radius: 20px;
   padding: 10px;
-  border: #000 solid;
   box-shadow: 1px 1px 50px 10px;
   margin-top: 80px;
   font-size: 19px;
-  font-weight: bold;
   font-family: sans-serif;
 }
