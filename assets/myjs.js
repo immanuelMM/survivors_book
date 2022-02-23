@@ -39,9 +39,10 @@ window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 reveal();
+
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
-  var dataText = [ "The W in WFH is <br> not  just work, <br>it also means <br> WAR!  Let’s all <br> survive and <br> thrive!"];
+  var dataText = ["Let’s all survive and <br> thrive!"];
   
   // type one text in the typwriter
   // keeps calling itself until the text is finished
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     // chekc if text isn't finished yet
     if (i < (text.length)) {
       // add next character to h1
-     document.querySelector("h3").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+     document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
 
       // wait for a while and call this function again for next character
       setTimeout(function() {

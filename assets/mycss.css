@@ -15,16 +15,25 @@ p {
 
 .bg-1 h3 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 40%;
   transform: translate(-50%, -50%);
-  font-size: 90px;
-  font-family: "Gunplay 3D", sans-serif;
+  font-size: 70px;
+  font-family: "Gunplay";
+  color: #000;
+}
+.bg-1 h2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: 800px;
+  font-family: sans-serif;
   color: #000;
 }
 .bg-2 {
   background-color: #474e5d; /* Dark Blue */
-  color: #ffffff;
 }
 .bg-3 {
   background-color: #ffffff; /* White */
@@ -52,22 +61,21 @@ header {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 12px;
-  background-color: #7aa264;
-  background-image: linear-gradient(to bottom right, #7aa264, #3f5d2b);
+  background-image: linear-gradient(to bottom right, rgb(255 255 255), #ccc);
   font-variant-position: super;
   border-bottom: #000;
 }
 .navbar-default .navbar-brand {
   margin-top: -15px;
-  color: #fff;
+  color: #cfb168;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-size: 40px;
-  font-family: "Gunplay 3D", sans-serif;
+  color: black;
+  font-size: 25px;
+  font-family: ui-sans-serif;
 }
 .navbar-nav li a:hover {
-  color: #1abc9c !important;
+  color: #cfb168 !important;
 }
 .navbar-nav li a {
   margin: 1px;
@@ -75,11 +83,12 @@ header {
 .img-circle {
   border-radius: 50%;
   box-shadow: 1px 0px 10px 5px;
+  /* width: 100px; */
 }
 .bg-1 {
   background-color: #ffffff;
   color: #2f2f2f;
-  background-image: url("img/survivor_ref/home1.jpg");
+  background-image: url("img/survivor_ref/home2.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,7 +117,6 @@ header {
 }
 
 .second-container .container-fluid {
-  color: #bae4a2;
   font-family: "Gunplay 3D", sans-serif;
 }
 .container-fluid {
@@ -116,26 +124,14 @@ header {
   padding-bottom: 0px;
 }
 .about .container-fluid {
-  color: #7aa264;
   font-size: 100px;
 }
 .about .container-fluid img {
   margin-right: 10px;
 }
-.about .container-fluid p {
-  background-color: #fff;
-  /* background-image: linear-gradient(to bottom right, #7aa264, #000000c4); */
-  color: #555;
-  font-size: 20px;
-  font-weight: 700px;
-  /* border-radius: 20px; */
-  padding: 10px;
-  font-family: sans-serif;
-  /* box-shadow: 10px 10px 50px 0; */
-}
 .about .container-fluid h3 {
-  font-family: "Gunplay 3D", sans-serif;
-  font-size: 100px;
+  font-family: sans-serif;
+  font-size: 50px;
 }
 .clients {
   padding: 15px 0;
@@ -153,7 +149,7 @@ section {
   text-align: center;
 }
 .clients img {
-  max-width: 100%;
+  max-width: 60%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -212,7 +208,7 @@ section {
   background: #fff;
 }
 .contact .info i {
-  font-size: 50px;
+  font-size: 30px;
   float: left;
   width: 44px;
   height: 44px;
@@ -225,7 +221,7 @@ section {
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #124265;
@@ -250,13 +246,8 @@ section {
   padding-bottom: 30px;
 }
 .section-title h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  font-family: "Wallpoet", cursive;
-  font-size: 70px;
-  color: #7aa264;
+  font-family: sans-serif;
+  font-size: 50px;
 }
 .section-title p {
   margin-bottom: 0;
@@ -324,4 +315,71 @@ section {
   margin-top: 80px;
   font-size: 19px;
   font-family: sans-serif;
+}
+/* dsadsadasdsa */
+.section-heading {
+  font-size: 20px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.margin-top-btm-1 {
+  margin-bottom: 1% !important;
+  margin-top: 1% !important;
+}
+.letter-space3 {
+  letter-spacing: 3px !important;
+}
+.sm-text {
+  font-size: 10px !important;
+  line-height: 14px !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.width9 {
+  width: 90% !important;
+}
+.margin-top-btm-10 {
+  margin-bottom: 5% !important;
+  margin-top: 5% !important;
+}
+.med-text {
+  font-size: 15px !important;
+  line-height: 25px !important;
+  letter-spacing: 1px !important;
+}
+.center-col {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+img {
+  -webkit-backface-visibility: hidden;
+  height: auto;
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
+}
+.border-bottom {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.author-img {
+  min-height: 625px;
+}
+.cover-background {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+}
+.zero-margin {
+  margin: 0 !important;
 }
