@@ -29,7 +29,7 @@ p {
   transform: translate(-50%, -50%);
   font-size: 30px;
   font-family: 800px;
-  font-family: sans-serif;
+  font-family: "Gunplay";
   color: #000;
 }
 .bg-2 {
@@ -130,7 +130,7 @@ header {
   margin-right: 10px;
 }
 .about .container-fluid h3 {
-  font-family: sans-serif;
+  font-family: "gunplay";
   font-size: 50px;
 }
 .clients {
@@ -245,7 +245,7 @@ section {
   padding-bottom: 30px;
 }
 .section-title h3 {
-  font-family: sans-serif;
+  font-family: "gunplay";
   font-size: 50px;
 }
 .section-title p {
