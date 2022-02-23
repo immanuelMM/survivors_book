@@ -212,7 +212,6 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #7aa264;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,7 +229,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 30px;
-  color: #217bbc;
+  color: #555;
 }
 section {
   padding: 10px 0;
