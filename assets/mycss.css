@@ -18,16 +18,16 @@ p {
   top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Gunplay";
   color: #000;
 }
 .bg-1 h2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 40%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 20px;
   font-family: 800px;
   font-family: "Gunplay";
   color: #000;
@@ -209,6 +209,10 @@ section {
   .second-container.row {
     background-image: none;
     padding: 0%;
+  }
+  .container-fluid .text-center.row {
+    background-image: url("none");
+    padding: 1px;
   }
 }
 .contact .info {
