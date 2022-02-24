@@ -233,6 +233,9 @@ section {
   .second-container p {
     color: #fff;
   }
+  .width9 {
+    width: 100% !important;
+  }
 }
 .contact .info {
   width: 100%;
