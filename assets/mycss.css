@@ -106,10 +106,11 @@ header {
   height: auto;
 }
 .second-container h3 {
-  font-size: 8vw;
-  text-align: left;
+  font-size: 60px;
+  text-align: center;
   margin: auto;
-  color: #000;
+  color: rgb(0, 0, 0);
+  font-family: "gunplay 3d";
 }
 .second-container .img {
   position: relative;
@@ -185,6 +186,18 @@ section {
     background-image: none;
     padding: 0%;
   }
+  :root {
+    --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
+  }
+  .second-container p {
+    color: #fff;
+  }
+}
+:root {
+  --particular-ad: url("assets/img/survivor_ref/4-40566_open-book-png-transparent.png");
+}
+
+@media (max-width: 300px) {
 }
 
 @media only screen and (max-width: 600px) {
@@ -213,6 +226,12 @@ section {
   .container-fluid .text-center.row {
     background-image: url("none");
     padding: 1px;
+  }
+  :root {
+    --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
+  }
+  .second-container p {
+    color: #fff;
   }
 }
 .contact .info {
