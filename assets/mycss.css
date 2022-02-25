@@ -193,6 +193,9 @@ section {
   .second-container p {
     color: #fff;
   }
+  .mystyle {
+    padding: 10px !important;
+  }
 }
 :root {
   --particular-ad: url("assets/img/survivor_ref/4-40566_open-book-png-transparent.png");
