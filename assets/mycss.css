@@ -193,8 +193,11 @@ section {
   .second-container p {
     color: #fff;
   }
-  .mystyle {
+  .row.mystyle {
     padding: 10px !important;
+  }
+  .asss {
+    visibility: hidden !important;
   }
 }
 :root {
@@ -202,7 +205,7 @@ section {
 }
 
 @media (max-width: 300px) {
-  .mystyle {
+  .row.mystyle {
     padding: 10px !important;
   }
 }
@@ -237,7 +240,7 @@ section {
   :root {
     --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
   }
-  .mystyle {
+  .row.mystyle {
     padding: 10px !important;
   }
   .second-container p {
