@@ -202,6 +202,9 @@ section {
 }
 
 @media (max-width: 300px) {
+  .mystyle {
+    padding: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -233,6 +236,9 @@ section {
   }
   :root {
     --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
+  }
+  .mystyle {
+    padding: 10px !important;
   }
   .second-container p {
     color: #fff;
