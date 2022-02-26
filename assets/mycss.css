@@ -623,33 +623,10 @@ textarea {
   border-radius: 5px;
   -webkit-appearance: none;
 }
-input,
-select {
-  font-size: 11px;
-  padding: 8px 16px;
-  width: 100%;
-  border: 1px solid #dbdada;
-  letter-spacing: 1px;
-  margin: 0 0 20px 0;
-  max-width: 100%;
-  resize: none;
-}
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
 input {
   line-height: normal;
 }
-button,
-input,
-optgroup,
-select,
-textarea {
+input {
   font-size: 11px;
   padding: 8px;
   width: 100%;
