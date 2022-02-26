@@ -167,13 +167,12 @@ section {
   }
   .bg-1 h2 {
     position: absolute;
-    top: 57%;
+    top: 22%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 8px;
     font-family: "Gunplay";
     color: #000;
-    line-height: 50px;
   }
   .bg-1 {
     background-image: url("img/survivor_ref/home1.jpg");
@@ -238,7 +237,7 @@ section {
     padding: 1px;
   }
   :root {
-    --particular-ad: hidden;
+    --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
   }
   .row.mystyle {
     padding: 10px !important;
