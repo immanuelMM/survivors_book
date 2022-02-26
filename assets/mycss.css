@@ -75,6 +75,7 @@ header {
   color: black;
   font-size: 15px;
   font-family: serif;
+  text-decoration: underline black;
 }
 .navbar-nav li a:hover {
   color: #cfb168 !important;
@@ -86,7 +87,6 @@ header {
   background-color: #f8f8f8f8;
   background-image: linear-gradient(to bottom right, rgb(255 255 255), #ccc);
   transition: background-color 0.2s linear;
-  padding: 10px;
 }
 
 .img-circle {
