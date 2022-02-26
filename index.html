@@ -43,9 +43,9 @@
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/survivor_ref/1645296497582.jpeg" 
-              class="img-responsive img-circle" style="display:inline"
-                width="50" height="50">-<strong> URVIVORS SERIES</strong> 
+          <img src="assets/img/survivor_ref/1645296497582.png" 
+              class="img-responsive" style="display:inline"
+                width="70" height="50">URVIVORS SERIES 
         </a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
@@ -309,27 +309,21 @@
   </div>
 </footer><!-- End Footer -->
 <script>
+  $(document).ready(function() {
+
   $(window).scroll(function() {
-    if ($(window).scrollTop() > 75) {
-        $('#navBar').css("opacity", 0.3);
-    }
-    else {
-        $('#navBar').css("opacity", 1);
-    }
-});
 
-$(document).ready(function(){
-    $('#navBar').live("mouseover", function () {
-            $(this).css("opacity", 1);
-            });
+      var height = $('.navbar-default').height();
+      var scrollTop = $(window).scrollTop();
 
-    $('#navBar').live("mouseleave", function () {
-        if($(window).scrollTop() > 75) { // this here
-            $(this).css("opacity", 0.3);
-        }
+      if (scrollTop >= height - 40) {
+          $('.navbar-default').addClass('solid-nav');
+      } else {
+          $('.navbar-default').removeClass('solid-nav');
+      }
+
     });
-
-})
+  });
 </script>
 <script src="assets/myjs.js"></script>
 </body>
