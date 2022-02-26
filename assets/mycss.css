@@ -162,9 +162,6 @@ section {
   transform: scale(1.15);
 }
 @media (max-width: 768px) {
-  * {
-    font-family: "Wallpoet", cursive;
-  }
   .clients img {
     max-width: 40%;
   }
@@ -211,11 +208,9 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-  * {
-    font-family: "Wallpoet", cursive;
-  }
   .about .container-fluid img {
-    display: none;
+    width: 100%;
+    box-shadow: none;
   }
   .about .container-fluid h3 {
     font-size: 50px;
