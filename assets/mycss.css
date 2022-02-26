@@ -31,6 +31,7 @@ p {
   font-family: 800px;
   font-family: "Gunplay";
   color: #000;
+  line-height: 40px;
 }
 .bg-2 {
   background-color: #474e5d; /* Dark Blue */
