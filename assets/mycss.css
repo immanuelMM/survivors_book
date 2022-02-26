@@ -131,10 +131,6 @@ header {
 .about .container-fluid img {
   margin-right: 10px;
 }
-.about .container-fluid h3 {
-  font-family: "gunplay";
-  font-size: 50px;
-}
 .clients {
   padding: 15px 0;
   text-align: center;
@@ -160,6 +156,10 @@ section {
 .clients img:hover {
   filter: none;
   transform: scale(1.15);
+}
+.contact img {
+  width: 50%;
+  margin-left: 70px;
 }
 @media (max-width: 768px) {
   .clients img {
@@ -209,11 +209,15 @@ section {
 
 @media only screen and (max-width: 600px) {
   .about .container-fluid img {
-    width: 100%;
+    width: 50%;
     box-shadow: none;
   }
-  .about .container-fluid h3 {
-    font-size: 50px;
+  .contact img {
+    width: 50%;
+    margin-left: 70px;
+  }
+  .img-responsive.img-circle img {
+    width: 10%;
   }
   .bg-1 h3 {
     position: absolute;
@@ -262,7 +266,7 @@ section {
 }
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #124265;
@@ -270,7 +274,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 20px;
   color: #555;
 }
 section {
@@ -364,6 +368,7 @@ section {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+  text-align: center;
 }
 .margin-top-btm-1 {
   margin-bottom: 1% !important;
@@ -445,4 +450,21 @@ if it's not present, don't show loader */
   z-index: 9999;
   background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif)
     center no-repeat #fff;
+}
+@media (max-width: 768px) {
+  .line-sep {
+    margin: 20px auto 15px;
+  }
+}
+.line-sep {
+  height: 1.5px;
+  margin: 5% auto;
+  width: 40px;
+}
+.margin-top-btm-1 {
+  margin-bottom: 1% !important;
+  margin-top: 1% !important;
+}
+.bg-gray-md {
+  background: #cecece !important;
 }
