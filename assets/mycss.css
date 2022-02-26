@@ -613,37 +613,24 @@ img {
   .second-container h3 {
     font-size: 50px;
   }
+  .clients img {
+    max-width: 20%;
+  }
 }
-form {
-  display: block;
-  margin-top: 0em;
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #198754;
+  border-color: #198754;
 }
-input[type="text"],
-textarea {
-  border-radius: 5px;
-  -webkit-appearance: none;
+.btn:hover {
+  color: #212529;
 }
-input {
-  line-height: normal;
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
 }
-input {
-  font-size: 11px;
-  padding: 8px;
-  width: 100%;
-  border: 1px solid #dbdada;
-  letter-spacing: 1px;
-  margin: 0 0 20px 0;
-  max-width: 100%;
-  resize: none;
-}
-textarea {
-  font-size: 11px;
-  padding: 8px 16px;
-  width: 100%;
-  border: 1px solid #dbdada;
-  letter-spacing: 1px;
-  height: 120px;
-  margin: 0 0 20px 0;
-  max-width: 100%;
-  resize: none;
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
 }
