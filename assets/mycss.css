@@ -1,3 +1,7 @@
+div {
+  cursor: url("https://i.stack.imgur.com/bUGV0.png"), auto;
+  cursor: default;
+}
 @import url("http://fonts.cdnfonts.com/css/gunplay-3d");
 * {
   font-family: sans-serif;
