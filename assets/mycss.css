@@ -143,6 +143,7 @@ header {
 }
 .about .container-fluid {
   font-size: 100px;
+  padding: 90px;
 }
 .about .container-fluid img {
   margin-right: 10px;
@@ -177,8 +178,11 @@ section {
   transform: scale(1.15);
 }
 .contact img {
-  width: 50%;
-  margin-left: 70px;
+  width: 200%;
+  margin-top: 50px;
+}
+#contact {
+  padding: 90px;
 }
 @media (max-width: 768px) {
   .clients img {
@@ -191,6 +195,12 @@ section {
     font-size: 8px;
     line-height: 10px;
   }
+  .bg-gray-light {
+    padding: 1px !important;
+  }
+  .about .container-fluid {
+    padding: 1px !important;
+  }
   .bg-1 {
     background-image: url("img/survivor_ref/home1.jpg");
     margin-top: 50px;
@@ -202,7 +212,7 @@ section {
     padding: 0%;
   }
   :root {
-    --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
+    --particular-ad: url("assets/img/survivor_ref/istockphoto-160389096-170667a.jpg");
     width: 100%;
     height: 100%;
   }
@@ -212,21 +222,14 @@ section {
   .row.mystyle {
     padding: 10px !important;
   }
+  .contact {
+    padding: 1px !important;
+  }
   .asss {
     visibility: hidden !important;
   }
 }
-:root {
-  --particular-ad: url("assets/img/survivor_ref/4-40566_open-book-png-transparent.png");
-}
-
-@media (max-width: 300px) {
-  .row.mystyle {
-    padding: 10px !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+@media (max-width: 1024px) {
   .about .container-fluid img {
     width: 50%;
     box-shadow: none;
@@ -234,8 +237,7 @@ section {
     margin-bottom: -19px;
   }
   .contact img {
-    width: 50%;
-    margin-left: 70px;
+    width: 100%;
   }
   .img-responsive.img-circle img {
     width: 10%;
@@ -258,11 +260,152 @@ section {
     padding: 1px;
   }
   :root {
-    --particular-ad: url("assets/img/survivor_ref/open-book-8057653.jpg");
+    --particular-ad: url("assets/img/survivor_ref/istockphoto-160389096-170667a.jpg");
   }
   .row.mystyle {
     padding: 10px !important;
   }
+  .second-container p {
+    color: #fff;
+  }
+  .width9 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1340px) {
+  .about .container-fluid img {
+    width: 50%;
+    box-shadow: none;
+    margin-top: 41px;
+    margin-bottom: -19px;
+  }
+  .contact img {
+    width: 100%;
+  }
+  .img-responsive.img-circle img {
+    width: 10%;
+  }
+  .bg-1 h3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: "Wallpoet", cursive;
+    color: #000;
+  }
+  .second-container.row {
+    background-image: none;
+    padding: 0%;
+  }
+  .container-fluid .text-center.row {
+    background-image: url("none");
+    padding: 1px;
+  }
+  :root {
+    --particular-ad: hidden;
+  }
+  .row.mystyle {
+    padding: 10px !important;
+  }
+  .second-container p {
+    color: #fff;
+  }
+  .width9 {
+    width: 100% !important;
+  }
+}
+:root {
+  --particular-ad: url("assets/img/survivor_ref/4-40566_open-book-png-transparent.png");
+}
+@media only screen and (min-width: 600px) {
+}
+
+@media (max-width: 300px) {
+  .row.mystyle {
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .about .container-fluid img {
+    width: 50%;
+    box-shadow: none;
+    margin-top: 41px;
+    margin-bottom: -19px;
+  }
+  .contact img {
+    width: 100%;
+  }
+  .img-responsive.img-circle img {
+    width: 10%;
+  }
+  .bg-1 h3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: "Wallpoet", cursive;
+    color: #000;
+  }
+  .second-container.row {
+    background-image: none;
+    padding: 0%;
+  }
+  .container-fluid .text-center.row {
+    background-image: url("none");
+    padding: 1px;
+  }
+  :root {
+    --particular-ad: url("assets/img/survivor_ref/istockphoto-160389096-170667a.jpg");
+  }
+  .row.mystyle {
+    padding: 10px !important;
+  }
+  .second-container p {
+    color: #fff;
+  }
+  .width9 {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .about .container-fluid img {
+    width: 50%;
+    box-shadow: none;
+    margin-top: 41px;
+    margin-bottom: -19px;
+  }
+  .contact img {
+    width: 100%;
+  }
+
+  .img-responsive.img-circle img {
+    width: 10%;
+  }
+  .bg-1 h3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: "Wallpoet", cursive;
+    color: #000;
+  }
+  .second-container.row {
+    background-image: none;
+    padding: 0%;
+  }
+  .container-fluid .text-center.row {
+    background-image: url("none");
+    padding: 1px;
+  }
+
+  :root {
+    --particular-ad: url("assets/img/survivor_ref/istockphoto-160389096-170667a.jpg");
+  }
+
   .second-container p {
     color: #fff;
   }
@@ -299,7 +442,7 @@ section {
   color: #555;
 }
 section {
-  padding: 90px;
+  padding: 1px;
   overflow: hidden;
 }
 
@@ -487,6 +630,7 @@ if it's not present, don't show loader */
 }
 .bg-gray-light {
   background-color: #f5f5f5 !important;
+  padding: 90px;
 }
 .font-oswald {
   font-family: "Oswald", sans-serif;
@@ -807,4 +951,18 @@ h6,
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #f8d78c;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
 }
